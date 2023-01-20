@@ -19,7 +19,7 @@ body {
 }
 
 .header-container {
-  max-width: 1110px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .navbar {
@@ -105,3 +105,28 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+
+/* Main Sections */
+ main {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
+ }
+
+ /* Brand logo section */
+
+
+ .line {
+  width: auto;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(192, 204, 218, 0) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0) 100%);
+ }
+ .brand-logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 35px auto;
+ }
